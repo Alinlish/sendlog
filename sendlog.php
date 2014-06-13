@@ -1,4 +1,7 @@
 <?php
+$oohLaLogApiKey = 'YOUR API KEY HERE';
+require('202e39bd-4c53-439a-bf89-065517e01e45');
+
 function ollog_error_handler($errorno, $errormsg, $filename, $linenum, $vars)
 {
 //min time between calls
